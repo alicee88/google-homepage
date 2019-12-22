@@ -4,7 +4,6 @@
 }
 
 #google-search {
-
     margin: 5px auto;                  /* center container */
     width: 582px;
     height: 45px;
@@ -27,4 +26,48 @@ input {
 .fa-search {
     opacity: 0.25;
     padding: 10px;
+}
+
+header {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    right:15px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    opacity: 0.75;
+    display: inline;
+}
+
+nav a {
+    display: block;
+    width: 60px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-top-left {
+    float: left;
+}
+
+.nav-top-left ul li {
+    float: left;
+}
+
+.nav-top-right ul {
+    float: right;
+    text-align:center;
+}
+
+.nav-top-right ul li {
+    float: left;
 }
